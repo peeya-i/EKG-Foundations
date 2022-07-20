@@ -275,7 +275,7 @@ services:
   ss-mysql:
     # command: --character-set-server=utf8mb4 --collati   on-server=utf8mb4_unicode_ci
     image: mysql:5
-    container_name: mysqlss-
+    container_name: ss-mysql
     restart: always
     environment:
       MYSQL_DATABASE: superset
