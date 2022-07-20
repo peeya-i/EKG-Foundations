@@ -302,8 +302,8 @@ services:
     ports:
       - "8088:8088"
     volumes:
-      - ./docker/superset/config/:/etc/superset/
-      - ./docker/superset/superset_data/:/home/superset/ 
+      - ./81-Superset/config/:/etc/superset/
+      - ./81-Superset/superset/superset_data/:/home/superset/ 
     profiles:
       - superset
 
